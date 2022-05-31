@@ -5,10 +5,6 @@
   "scripts": {
     "start": "node ./server.js"
   },
-  "engines": {
-    "node": "^12.18.3",
-    "npm": "^6.0.0"
-  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
     "bootstrap": "^4.5.2",
@@ -18,12 +14,12 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jquery": "^3.5.1",
+    "mongoose": "^6.3.4",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
   },
   "description": "demo app for COMP229 Week 3",
   "main": "server.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tsiliopoulos/COMP229-F2020-Week3.git"
